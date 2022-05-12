@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import StateComponent from "./State";
 import Effect from "./Effect";
+import Context from "./Context";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
      <StateComponent/>
         <hr/>
         <Effect/>
+        <hr/>
+        <Context/>
     </div>
   );
 }
