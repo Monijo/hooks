@@ -3,6 +3,7 @@ import './App.css';
 import StateComponent from "./State";
 import Effect from "./Effect";
 import Context from "./Context";
+import RefComponent from "./Ref";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Effect/>
         <hr/>
         <Context/>
+        <hr/>
+        <RefComponent/>
     </div>
   );
 }
