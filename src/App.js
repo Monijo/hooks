@@ -4,6 +4,8 @@ import StateComponent from "./State";
 import Effect from "./Effect";
 import Context from "./Context";
 import RefComponent from "./Ref";
+import ReducerComponent from "./ReducerComponent";
+import Memo from "./Memo";
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
         <Context/>
         <hr/>
         <RefComponent/>
+        <hr/>
+        <ReducerComponent/>
+        <hr/>
+        <Memo/>
     </div>
   );
 }
