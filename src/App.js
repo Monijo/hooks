@@ -10,6 +10,7 @@ import Callback from "./Callback";
 import LayoutEffect from "./LayoutEffect";
 import ImperativeHandle from "./ImperativeHandle";
 import DebugValue from "./DebugValue";
+import Id from "./Id";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
         <ImperativeHandle/>
         <hr/>
         <DebugValue/>
+        <hr/>
+        <Id/>
     </div>
   );
 }
