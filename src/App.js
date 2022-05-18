@@ -6,6 +6,8 @@ import Context from "./Context";
 import RefComponent from "./Ref";
 import ReducerComponent from "./ReducerComponent";
 import Memo from "./Memo";
+import Callback from "./Callback";
+import LayoutEffect from "./LayoutEffect";
 
 function App() {
   return (
@@ -21,6 +23,10 @@ function App() {
         <ReducerComponent/>
         <hr/>
         <Memo/>
+        <hr/>
+        <Callback/>
+         <hr/>
+       <LayoutEffect/>
     </div>
   );
 }
